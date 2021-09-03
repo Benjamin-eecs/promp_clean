@@ -172,7 +172,7 @@ class Trainer(object):
                                 grad_std.append(np.mean(std))
                                 grad_rstd.append(np.mean(std/mean))
 
-                            logger.logkv('Step_%i-GradientMean', np.mean(mean))
+                            logger.logkv('Step_%i-GradientMean'%step_id, np.mean(mean))
                             logger.logkv('Step_%i-GradientStd'%step_id, np.mean(grad_std))
                             logger.logkv('Step_%i-GradientRStd' % step_id, np.mean(grad_rstd))
 
