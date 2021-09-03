@@ -1,0 +1,10 @@
+README.md
+setup.py
+meta_policy_search/__init__.py
+meta_policy_search/meta_trainer_double.py
+meta_policy_search.egg-info/PKG-INFO
+meta_policy_search.egg-info/SOURCES.txt
+meta_policy_search.egg-info/dependency_links.txt
+meta_policy_search.egg-info/not-zip-safe
+meta_policy_search.egg-info/requires.txt
+meta_policy_search.egg-info/top_level.txt
